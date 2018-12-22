@@ -1,0 +1,163 @@
+body {
+  width: 1000px;
+  margin: auto;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  /* margin-top: 5px; */
+  /* background-color: red; */
+  position: fixed;
+  background-color: #eee;
+  top: 0;
+  width: 1000px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    width: 100%;
+  }
+  #header {
+    width: 100%;
+  }
+}
+
+#header-img {
+  max-height: 70px;
+  margin-left: 20px;
+}
+
+#header-placer {
+  margin-top: 100px;
+}
+
+#nav-bar ul {
+  display: flex;
+}
+
+#nav-bar li {
+  min-width: 120px;
+}
+
+.nav-link {
+  /* margin: 0 30px; */
+  /* font-weight: 700; */
+  font-size: 1.1em;
+  color: #333;
+  text-align: center;
+}
+
+.nav-link:hover {
+  /* background-color: #ccc; */
+  font-weight: 700;
+}
+
+#main-text {
+  width: 100%;
+  padding: 70px 0;
+}
+
+#main-text p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 1.5em;
+  color: #555;
+}
+
+#video-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#form {
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+#form label {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #333;
+}
+
+#form input {
+  margin-top: 10px;
+}
+
+#form button {
+  width: 100px;
+  margin-top: 10px;
+}
+
+#car-versions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  #car-versions {
+    flex-direction: column;
+  }
+}
+
+.car-version {
+  margin: 10px 0 50px;
+  flex: 1;
+}
+
+.car-version-title {
+  font-size: 1.2em;
+  margin: 2px 0;
+  text-align: center;
+}
+
+.car-version-text {
+  margin: 20px 20px;
+  text-align: justify;
+}
+
+.car-version-buy {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.car-version-buy a {
+  background-color: #aaa;
+  padding: 2px 15px;
+  font-size: 1.1em;
+}
+
+#footer {
+  background-color: #eee;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.footer-item {
+  margin: 0 20px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  <!-- <script src="main.js"></script> -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,700" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <a href="#">
+      <img src="/img/logo.png" alt="The Shop" id="header-img">
+    </a>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#main-text">About</a></li>
+        <li><a class="nav-link" href="#form">Subscribe</a></li>
+        <li><a class="nav-link" href="#car-versions">Versions</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="header-placer"></div>
+
+  <div id="main-text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <div id="video-div">
+    <iframe id="video" width="560" height="315" 
+      src="https://www.youtube.com/embed/hyGSJLuBVdg" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <label for="email">Subscribe to get news</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email">
+    <input type="submit" id="submit" value="Submit"></input>
+  </form>
+
+  <div id="car-versions">
+    <div class="car-version">
+      <p class="car-version-title">Version 1</p>
+      <p class="car-version-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+      <div class="car-version-buy"><a href="#">Buy</a></div>
+    </div>
+    <div class="car-version">
+      <p class="car-version-title">Version 2</p>
+      <p class="car-version-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+      <div class="car-version-buy"><a href="#">Buy</a></div>
+    </div>
+    <div class="car-version">
+      <p class="car-version-title">Version 3</p>
+      <p class="car-version-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+      <div class="car-version-buy"><a href="#">Buy</a></div>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="footer-item">Copyright 2018</div>
+    <div class="footer-item">The footer</div>
+  </footer>
+</body>
+</html>
